@@ -1,0 +1,180 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  padding: 40px;
+}
+
+.table-container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.todo-title {
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #2563eb;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #1d4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+/* Action Buttons in Table */
+td.actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  td.actions a.btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    flex: 1;
+  }
+  
+  /* Different color for DELETE button */
+  a.btn.delete {
+    background-color: #dc2626; /* red */
+  }
+  
+  a.btn.delete:hover {
+    background-color: #b91c1c;
+  }
+  /* ===== Todo Form Styling ===== */
+
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f2937;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  form input[type="text"],
+  form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9fafb;
+    color: #1f2937;
+  }
+  
+  form input[type="text"]:focus,
+  form textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+  }
+  
+  form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+  }
+  
+  form button:hover {
+    background-color: #1d4ed8;
+  }
+ /* Form container */
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Back button */
+  .back-btn {
+    display: inline-block;
+    margin: 20px auto 10px 40px;
+    background-color: #e5e7eb;
+    color: #111827;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s ease;
+  }
+  .back-btn:hover {
+    background-color: #d1d5db;
+  }
+  
+  /* Form elements */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #374151;
+  }
+  
+  .form-group input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background-color: #f9fafb;
+  }
+  
+  .form-group input[type="text"]:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 1px #2563eb;
+  }
+   
+  
